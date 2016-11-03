@@ -1,0 +1,95 @@
+.section {
+	background: white;
+	margin: 30px;
+	align-self: center;
+}
+
+.body {
+	background: white;
+	margin: 30px;
+	padding: 10px;
+}
+
+h1 {
+	color: white;
+	background: teal;
+	margin: 0px;
+	padding: 10px;
+	border: 0px;
+}
+
+h2, h3 {
+	color: teal;
+}
+
+
+img {
+	float: left;
+	margin: 10px;
+}
+
+.images {
+	align-content: center;
+	width: 100px;
+	height: 100px;
+}
+
+.foot {
+	text-align: center;
+}
+
+.imgrow {
+	align-self: center;
+}
+
+h4 {
+	position: absolute;
+    top: 135px;
+    left: 29px;
+    background: teal;
+    color: white;
+    width: 192px;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px){
+	.section, .body{
+		width: 550px;
+	}
+
+	li {
+		float: left;
+		width: 28%;
+		margin-left: 30px;
+	}
+
+	h1 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px){
+	.section, .body{
+		width: 700px;
+	}
+
+	h1 {
+		width: 40%;
+	}
+
+	.navbar-right{
+		float: right;
+	}
+
+	li {
+		width: 30%;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px){
+	.section, .body{
+		width: 40%;
+		float: left;
+	}
+}	
